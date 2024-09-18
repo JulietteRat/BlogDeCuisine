@@ -1,0 +1,67 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19 mars 2024, 18:04:53
+    Author     : Le J c'est le S
+*/
+
+@font-face {
+    font-family: Robothin;
+    src:url(../font/Roboto-Thin.ttf)
+}
+@font-face {
+    font-family: Roboreg;
+    src:url(../font/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: Robotit;
+    src:url(../font/Roboto-LightItalic.ttf)
+}
+h1 {
+    font-family: Robothin;
+    font-size: 2em;
+    text-align: center;
+}
+
+label, legend {
+    font-family: Roboreg;
+}
+
+legend {
+    padding-bottom: 2%;
+    font-size: 1.3em;
+}
+
+fieldset > div {
+    padding: 2px;
+}
+
+form {
+    background-color: #FFD472 ;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding: 2%;
+}
+fieldset {
+    border : none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Roboreg;
+}
+input{
+    padding: 1%;
+    font-family: Roboreg;
+}
+.error {
+    color: red;
+    font-family: Robotit;
+    padding: 1%;
+
+}

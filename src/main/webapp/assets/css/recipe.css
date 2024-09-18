@@ -1,0 +1,96 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 20 mars 2024, 13:44:27
+    Author     : Le J c'est le S
+*/
+@font-face {
+    font-family: Robothin;
+    src:url(../font/Roboto-Thin.ttf)
+}
+@font-face {
+    font-family: Roboreg;
+    src:url(../font/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: Robotit;
+    src:url(../font/Roboto-LightItalic.ttf)
+}
+
+/* container principal */
+
+.recipe {
+    background-color:  #FFD472 ;
+    border-radius: 10px;
+    margin: 2%;
+    margin-top: 0%;
+    margin-bottom:0%;
+    padding-bottom: 0%;
+    padding: 2%;
+    display: flex;
+
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    min-width: 70%;
+}
+
+.appends {
+    font-family: Robothin;
+}
+
+.img {
+    min-width: 30%;
+    /*background-color: white;*/
+}
+/*#img-index{
+    max-width: 100%;
+    max-height: 71%;
+    margin:auto;
+}*/
+#img-index>img{
+    max-width: 100%;
+    max-height: 71%;
+    margin:auto;
+}
+#img-index{
+    background-color: transparent;
+    display: flex;
+
+}
+
+h2 {
+    text-align: left;
+    margin-left: 2%;
+    margin-bottom: 0%;
+    font-family: Roboreg;
+    font-size: 1.5em;
+    color:  #FFD472 ;
+}
+h3 {
+    font-family: Roboreg;
+}
+h4 {
+    text-align: right;
+    margin-right: 2%;
+    margin-top: 0px;
+    color: #FFD472 ;
+    font-family: Roboreg;
+}
+form > h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 5%;
+}
+form >div {
+    margin: 2%;
+}
+
+.vote {
+    display:flex;
+    flex-direction: row;
+}

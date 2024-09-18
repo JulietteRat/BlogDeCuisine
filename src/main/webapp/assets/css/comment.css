@@ -1,0 +1,26 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 21 mars 2024, 16:31:36
+    Author     : Le J c'est le S
+*/
+
+.comment{
+    background-color:  #FFD472 ;
+    margin: 2%;
+    border-radius: 10px;
+    margin-top: 0%;
+    margin-bottom:2%;
+    padding-bottom: 0%;
+    padding: 2%;
+}
+form{
+    margin: 2%;
+    border-radius: 10px;
+}
+.addComment{
+    display: flex;
+    justify-content: center;
+}

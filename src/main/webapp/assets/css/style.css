@@ -1,0 +1,79 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19 mars 2024, 11:21:00
+    Author     : Le J c'est le S
+*/
+
+/*----------------------------- Les fonts :---------------------------------- */
+@font-face {
+    font-family:Robotobold;
+    src: url(../font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Robothin;
+    src:url(../font/Roboto-Thin.ttf)
+}
+/*---------------------------Structure de base--------------------------------*/
+
+body {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+header,main,footer {
+    flex: 0 0 auto;
+    padding: 10px;
+}
+header, footer {
+    /*background: linear-gradient(to right, #ffcc00, #ff6600);*/
+    background: linear-gradient(to right,#F27438,#F9968B);
+    color: white;
+    font-family: Robotobold;
+    margin-top: -1em;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    flex-grow:1;
+}
+footer {
+    height: 10 vh
+}
+/*----------------------------------HEADER------------------------------------*/
+.right {
+    font-size: 1.5em;
+    align-self: center;
+    padding-left: 2vw;
+}
+nav > ul {
+    display:flex;
+    justify-content: flex-end;
+
+}
+h1 {
+    font-family: Robothin;
+    font-size: 2em;
+    text-align: center;
+}
+nav > ul > li {
+    list-style-type: none;
+    margin: 2%;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.2em;    
+    width: 10vw;
+    height: 10vh;    
+    background-color:#F27438 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

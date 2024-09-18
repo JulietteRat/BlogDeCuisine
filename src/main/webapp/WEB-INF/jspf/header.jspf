@@ -1,0 +1,29 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page pageEncoding="UTF-8" %>
+<header>
+    <div class="right"> Welcome ${sessionScope.user.login}</div>
+    <nav>
+        <ul>
+            <li><a href="<c:url value="/" />">Home</a></li>
+            <c:choose>
+                    <c:when test="${empty sessionScope.user}">
+                    <li><a href="<c:url value="/connect" />">Connect</a></li>
+                    <li><a href="<c:url value="/signup" />">Sign up</a></li>
+                </c:when>
+                        <c:otherwise>
+                            <c:if test="${sessionScope.user.id_person != 1}">
+                            <li><a href="<c:url value="/user/createrecipe" />">Create Recipe</a></li>
+                            <li><a href="<c:url value="/user/profile" />">Profile</a></li>
+                            </c:if>
+                            <li><a href="<c:url value="/logout"/>">Logout</a></li>
+                    </c:otherwise>
+                </c:choose>
+                        <c:if test="${sessionScope.user.id_person == 1}">
+                        <li><a href="<c:url value="/admin" />">Admin</a></li>
+                    </c:if>
+        </ul>
+    </nav>
+
+</header>
+

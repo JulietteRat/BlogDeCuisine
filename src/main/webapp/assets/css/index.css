@@ -1,0 +1,128 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 21 mars 2024, 17:18:10
+    Author     : Le J c'est le S
+*/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin: 0;
+}
+
+.top h2{
+    color: #00353F;
+    font-size: 1.3em;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+.top3 {
+    display: flex;
+    justify-content: space-around;
+}
+.winrecipe {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 29vw;
+    overflow: hidden;
+    margin: 2%;
+    background-color: #76CDCD;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
+}
+
+.winrecipe h2 {
+    color: white;
+    text-align: center;
+}
+.winrecipe h4 {
+    color: black;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    text-align:left;
+}
+/*.bloctext{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}*/
+.droite{
+    /*padding-top: 15%;*/
+    font-size: 0.9em;
+    padding: 3%;
+    padding-top: 0;
+}
+.gauche {
+    max-width: 65%;
+    font-size: 0.85em;
+    text-align: justify;
+    padding-left: 3%;
+}
+.ingredients{
+    color: white;
+    padding-bottom: 2%;
+}
+.ingredients h4 {
+    color: white;
+}
+.idtitre h2{
+    font-size: 1.5em;
+    color:#F9968B;
+}
+.img-best{
+    max-width: 250px;
+    max-height: 190px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.droite>p{
+    margin: 0;
+}
+.more{
+    margin-top: 10px;
+
+}
+.more>a{
+    text-decoration: none;
+    background-color: #F27438;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.20);
+    display:block;
+    text-align: center;
+    margin: auto;
+    max-width: 33%;
+}
+.more>a:hover{
+    background-color: #e9601e;
+}
+#img-index{
+    background-color: transparent;
+    display: flex;
+
+}
+#img-index>img{
+    max-width: 100%;
+    max-height: 71%;
+    margin:auto;
+}
+
+form, h5{
+    display: inline;
+}
+.margin-voter{
+    margin-top: 8px;
+}
